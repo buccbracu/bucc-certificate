@@ -20,7 +20,7 @@ export default function Home() {
 
             <p className="text-white text-base sm:text-lg md:text-xl leading-relaxed">
               Access and download certificates for events and accomplishments
-              with ease. Enter your student ID below to retrieve your
+              with ease. Enter your Recipient ID below to retrieve your
               certificates securely. Celebrate your achievements in just a few
               clicks!
             </p>

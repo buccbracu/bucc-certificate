@@ -24,7 +24,7 @@ export default function IdSubmissionForm() {
             type="text"
             id="recipientId"
             placeholder="Write your ID"
-            className="w-full px-4 py-3 rounded-md border border-gray-400 focus:outline-none focus:ring-2 focus:ring-[#082832]"
+            className="w-full px-4 rounded-md border border-gray-400 focus:outline-none focus:ring-2 focus:ring-[#082832]"
           />
           <SubmitButton />
         </div>
