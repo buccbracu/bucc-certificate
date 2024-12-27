@@ -1,2 +1,5 @@
-Main page -> Server action to API Route
-Certificate Page -> API Route
+- [x] Main page -> Server action to API Route
+- [x] Certificate Page -> API Route + Rate limiting
+- Favicon, Title
+- UI
+- [x] MongoDB collection
