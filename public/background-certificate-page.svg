@@ -1,0 +1,106 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 512" width="720" height="512">
+	<title>New Project</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h720v512h-720z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #ffffff;stroke-miterlimit:100;stroke-width: .5 } 
+	</style>
+	<g id="Grid 5" clip-path="url(#cp1)">
+		<g id="Grid layers" style="opacity: .1">
+			<g id="horizontal line">
+				<path id="Line 4" class="s0" d="m98.5 236.5h522.5z"/>
+				<path id="Line 10" class="s0" d="m40.5 396.5h638.5z"/>
+				<path id="Line 6" class="s0" d="m40.5 364.5h638.5z"/>
+				<path id="Line 11" class="s0" d="m40.5 524.5h638.5z"/>
+				<path id="Line 5" class="s0" d="m98.5 204.5h522.5z"/>
+				<path id="Line 7" class="s0" d="m98.5 332.5h522.5z"/>
+				<path id="Line 12" class="s0" d="m40.5 492.5h638.5z"/>
+				<path id="Line 3" class="s0" d="m40.5 172.5h638.5z"/>
+				<path id="Line 8" class="s0" d="m98.5 300.5h522.5z"/>
+				<path id="Line 13" class="s0" d="m40.5 460.5h638.5z"/>
+				<path id="Line 9" class="s0" d="m98.5 268.5h522.5z"/>
+				<path id="Line 14" class="s0" d="m40.5 428.5h638.5z"/>
+				<path id="Line 2" class="s0" d="m0 124.5h720z"/>
+				<path id="Line 1" class="s0" d="m0 40.5h720z"/>
+				<path id="Line " class="s0" d="m0 0.5h720z"/>
+			</g>
+			<g id="Vertical lines">
+				<path id="Line 15" class="s0" d="m41 505.5v-465.5z"/>
+				<path id="Line 16" class="s0" d="m331 396.5v-128.5z"/>
+				<path id="Line 24" class="s0" d="m505 396.5v-128.5z"/>
+				<path id="Line 18" class="s0" d="m215 396.5v-128.5z"/>
+				<path id="Line 25" class="s0" d="m679 505.5v-465.5z"/>
+				<path id="Line 20" class="s0" d="m157 460.5v-255.5z"/>
+				<path id="Line 26" class="s0" d="m621 505.5v-381.5z"/>
+				<path id="Line 22" class="s0" d="m99 505.5v-381.5z"/>
+				<path id="Line 23" class="s0" d="m389 396.5v-128.5z"/>
+				<path id="Line 27" class="s0" d="m563 460.5v-255.5z"/>
+			</g>
+			<g id="diagonal lines - right">
+				<path id="Background" class="s0" d="m738 172v192.5h-59.5v-192.5z"/>
+				<path id="Line 82" class="s0" d="m648.4 194.8l97.8-45.6z"/>
+				<path id="Line 83" class="s0" d="m648.4 310.5l97.8-45.6z"/>
+				<path id="Line 84" class="s0" d="m648.4 252.6l97.8-45.5z"/>
+				<path id="Line 85" class="s0" d="m648.4 368.3l97.8-45.5z"/>
+				<path id="Line 86" class="s0" d="m648.4 203.1l97.8-45.6z"/>
+				<path id="Line 87" class="s0" d="m648.4 318.7l97.8-45.5z"/>
+				<path id="Line 88" class="s0" d="m648.4 260.9l97.8-45.6z"/>
+				<path id="Line 89" class="s0" d="m648.4 376.6l97.8-45.6z"/>
+				<path id="Line 90" class="s0" d="m648.4 211.3l97.8-45.6z"/>
+				<path id="Line 91" class="s0" d="m648.4 327l97.8-45.6z"/>
+				<path id="Line 92" class="s0" d="m648.4 269.2l97.8-45.6z"/>
+				<path id="Line 93" class="s0" d="m648.4 384.9l97.8-45.6z"/>
+				<path id="Line 94" class="s0" d="m648.4 219.6l97.8-45.6z"/>
+				<path id="Line 95" class="s0" d="m648.4 335.3l97.8-45.6z"/>
+				<path id="Line 96" class="s0" d="m648.4 277.4l97.8-45.5z"/>
+				<path id="Line 97" class="s0" d="m648.4 393.1l97.8-45.6z"/>
+				<path id="Line 98" class="s0" d="m648.4 227.8l97.8-45.5z"/>
+				<path id="Line 99" class="s0" d="m648.4 343.5l97.8-45.5z"/>
+				<path id="Line 100" class="s0" d="m648.4 285.7l97.8-45.6z"/>
+				<path id="Line 101" class="s0" d="m648.4 401.4l97.8-45.6z"/>
+				<path id="Line 102" class="s0" d="m648.4 236.1l97.8-45.6z"/>
+				<path id="Line 103" class="s0" d="m648.4 351.8l97.8-45.6z"/>
+				<path id="Line 104" class="s0" d="m648.4 294l97.8-45.6z"/>
+				<path id="Line 105" class="s0" d="m648.4 409.6l97.8-45.5z"/>
+				<path id="Line 106" class="s0" d="m648.4 244.4l97.8-45.6z"/>
+				<path id="Line 107" class="s0" d="m648.4 360.1l97.8-45.6z"/>
+				<path id="Line 108" class="s0" d="m648.4 302.2l97.8-45.6z"/>
+				<path id="Line 109" class="s0" d="m648.4 417.9l97.8-45.6z"/>
+			</g>
+			<g id="diagonal lines - left">
+				<path id="Background" class="s0" d="m41 172v192.5h-59.5v-192.5z"/>
+				<path id="Line 82" class="s0" d="m-48.6 194.8l97.8-45.6z"/>
+				<path id="Line 83" class="s0" d="m-48.6 310.5l97.8-45.6z"/>
+				<path id="Line 84" class="s0" d="m-48.6 252.6l97.8-45.5z"/>
+				<path id="Line 85" class="s0" d="m-48.6 368.3l97.8-45.5z"/>
+				<path id="Line 86" class="s0" d="m-48.6 203.1l97.8-45.6z"/>
+				<path id="Line 87" class="s0" d="m-48.6 318.7l97.8-45.5z"/>
+				<path id="Line 88" class="s0" d="m-48.6 260.9l97.8-45.6z"/>
+				<path id="Line 89" class="s0" d="m-48.6 376.6l97.8-45.6z"/>
+				<path id="Line 90" class="s0" d="m-48.6 211.3l97.8-45.6z"/>
+				<path id="Line 91" class="s0" d="m-48.6 327l97.8-45.6z"/>
+				<path id="Line 92" class="s0" d="m-48.6 269.2l97.8-45.6z"/>
+				<path id="Line 93" class="s0" d="m-48.6 384.9l97.8-45.6z"/>
+				<path id="Line 94" class="s0" d="m-48.6 219.6l97.8-45.6z"/>
+				<path id="Line 95" class="s0" d="m-48.6 335.3l97.8-45.6z"/>
+				<path id="Line 96" class="s0" d="m-48.6 277.4l97.8-45.5z"/>
+				<path id="Line 97" class="s0" d="m-48.6 393.1l97.8-45.6z"/>
+				<path id="Line 98" class="s0" d="m-48.6 227.8l97.8-45.5z"/>
+				<path id="Line 99" class="s0" d="m-48.6 343.5l97.8-45.5z"/>
+				<path id="Line 100" class="s0" d="m-48.6 285.7l97.8-45.6z"/>
+				<path id="Line 101" class="s0" d="m-48.6 401.4l97.8-45.6z"/>
+				<path id="Line 102" class="s0" d="m-48.6 236.1l97.8-45.6z"/>
+				<path id="Line 103" class="s0" d="m-48.6 351.8l97.8-45.6z"/>
+				<path id="Line 104" class="s0" d="m-48.6 294l97.8-45.6z"/>
+				<path id="Line 105" class="s0" d="m-48.6 409.6l97.8-45.5z"/>
+				<path id="Line 106" class="s0" d="m-48.6 244.4l97.8-45.6z"/>
+				<path id="Line 107" class="s0" d="m-48.6 360.1l97.8-45.6z"/>
+				<path id="Line 108" class="s0" d="m-48.6 302.2l97.8-45.6z"/>
+				<path id="Line 109" class="s0" d="m-48.6 417.9l97.8-45.6z"/>
+			</g>
+		</g>
+	</g>
+</svg>

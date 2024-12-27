@@ -1,8 +1,8 @@
 "use server";
 
+import Certificate from "@/models/recipients";
 import { redirect } from "next/navigation";
 import dbConnect from "./dbConnect";
-import Certificate from "@/models/recipients";
 
 export type FormState =
   | {
@@ -15,7 +15,7 @@ export async function submitAction(
   state: FormState,
   formdata: FormData
 ): Promise<FormState> {
-  const recipientId = formdata.get("recipient-id");
+  const recipientId = formdata.get("recipientId");
 
   console.log(recipientId);
 
