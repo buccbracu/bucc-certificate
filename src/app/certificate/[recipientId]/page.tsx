@@ -98,10 +98,16 @@ export default async function CertificatePage({
               }
             >
               <div className="flex items-center justify-center w-full gap-6 pt-6">
-                <Link href={""} className="p-2 bg-[#24613D] rounded-lg">
+                <Link
+                  href={recipientData.fbShare}
+                  className="p-2 bg-[#24613D] rounded-lg"
+                >
                   <FaFacebookF size={30} color="white" />
                 </Link>
-                <Link href={""} className="p-2 bg-[#24613D] rounded-lg">
+                <Link
+                  href={recipientData.linkedinShare}
+                  className="p-2 bg-[#24613D] rounded-lg"
+                >
                   <FaLinkedinIn size={30} color="white" />
                 </Link>
               </div>
