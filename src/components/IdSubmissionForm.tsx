@@ -3,6 +3,7 @@
 import { FormEvent, useState } from "react";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 
 export default function IdSubmissionForm() {
   const [id, setId] = useState("");
@@ -21,27 +22,35 @@ export default function IdSubmissionForm() {
 
     if (!response.ok) {
       setPending(false);
-      return alert("Certificate not found");
+      return toast.error("Something went w");
     }
 
     router.push(`/certificate/${id}`);
   };
   return (
     <form className="flex flex-row" onSubmit={handleSubmit}>
-      <input
-        value={id}
-        onChange={(e) => setId(e.target.value)}
-        name="recipient-id"
-        placeholder="Write your ID"
-        type="text"
-        className="focus-within:outline-none px-4 py-2 w-[70%] rounded-l-lg"
-      />
-      <Button
-        className="w-[30%] bg-blue-600 rounded-l-none rounded-r-lg font-semibold text-white flex items-center justify-center hover:bg-blue-500"
-        disabled={pending}
-      >
-        {pending ? "Submitting..." : "Submit"}
-      </Button>
+      <div className="flex flex-col items-center gap-4">
+        <label htmlFor="recipientId" className="text-white text-lg font-medium">
+          Enter your Recipient ID
+        </label>
+        <div className="flex w-full gap-2">
+          <input
+            value={id}
+            onChange={(e) => setId(e.target.value)}
+            name="recipientId"
+            type="text"
+            id="recipientId"
+            placeholder="Write your ID"
+            className="w-full px-4 rounded-md border border-gray-400 focus:outline-none focus:ring-2 focus:ring-[#082832]"
+          />
+          <Button
+            className="w-[30%] bg-blue-600 rounded-l-none rounded-r-lg font-semibold text-white flex items-center justify-center hover:bg-blue-500"
+            disabled={pending}
+          >
+            {pending ? "Submitting..." : "Submit"}
+          </Button>
+        </div>
+      </div>
     </form>
   );
 }

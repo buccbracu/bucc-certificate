@@ -3,44 +3,51 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="">
-      {/* BG */}
+    <div className="min-h-screen">
+      {/* Background Section */}
+      <div className="relative w-full h-screen">
+        {/* Background Color */}
+        <div className="absolute inset-0 bg-[#082832]"></div>
+        {/* Background SVG */}
+        <div className="absolute inset-0 bg-[url('/background.svg')] bg-center bg-cover opacity-30"></div>
 
-      <div className="bg-[url('/hero.jpg')] bg-center bg-cover w-[100vw] h-[100vh] flex flex-col gap-4 items-center justify-center">
-        {/* Text */}
-        <div className="mb-6 ">
-          <h1 className="text-5xl text-white text-center font-bold mb-4">
-            Welcome to BUCC Certification Corner
-          </h1>
+        <div className="relative z-10 flex flex-col gap-8 items-center justify-center h-full px-4 sm:px-8">
+          {/* Hero Text */}
+          <div className="text-center max-w-3xl">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-4 leading-tight">
+              Welcome to BUCC Certification Corner
+            </h1>
 
-          <p className="text-center text-white w-[60%] m-auto ">
-            Here, members can easily access and download their certificates for
-            various events and accomplishments. Simply enter your student ID in
-            the field below to retrieve your certificates in a secure and
-            convenient way. Celebrate your achievements and showcase your
-            participation with just a few clicks!
-          </p>
-        </div>
+            <p className="text-white text-base sm:text-lg md:text-xl leading-relaxed">
+              Access and download certificates for events and accomplishments
+              with ease. Enter your Recipient ID below to retrieve your
+              certificates securely. Celebrate your achievements in just a few
+              clicks!
+            </p>
+          </div>
 
-        {/* Input */}
-        {/* Button */}
-        <div className="bg-[rgba(255,255,255,0.1)] gap-4 backdrop-blur-sm  p-8 w-[60%] flex flex-col rounded-lg ">
-          <IdSubmissionForm />
-        </div>
-        <div>
-          <p className="text-center text-white font-semibold">
-            If you face any issues feel free to reach out to us.{" "}
-          </p>
-          <p className="text-center w-[100%]">
+          {/* Submission Form Section */}
+          <div className="bg-[#1b2b34]/30 backdrop-blur-sm p-8 sm:p-10 w-full max-w-lg rounded-lg shadow-lg flex flex-col items-center gap-4">
+            <IdSubmissionForm />
+          </div>
+
+          {/* Contact Section */}
+          <div className="text-center mt-6">
+            <p className="text-gray-300 font-medium">
+              Need help? We&apos;re here to assist you.
+            </p>
             <Link
-              className="text-blue-400 text-center font-semibold"
-              href={"/contact"}
+              className="text-[#1CB488] font-semibold underline hover:text-[#30BA92]/50"
+              href="/contact"
             >
-              Contact us
+              Contact Support
             </Link>
-          </p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
+// #1CB488
+// #30BA92

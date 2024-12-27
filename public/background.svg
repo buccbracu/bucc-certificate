@@ -1,0 +1,116 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 721 513" width="721" height="513">
+	<title>New Project</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h721v513h-721z"/>
+		</clipPath>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f1"> <feGaussianBlur stdDeviation="20.4"/> </filter>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(226.684,120.73,-72.595,136.304,95.244,-9.167)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</linearGradient>
+		<radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(338.05,-190.428,190.428,338.05,78.225,470.75)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f2"> <feGaussianBlur stdDeviation="57.6"/> </filter>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f3"> <feGaussianBlur stdDeviation="39.6"/> </filter>
+	</defs>
+	<style>
+		.s0 { filter: url(#f1);fill: url(#g1) } 
+		.s1 { filter: url(#f1);fill: url(#g2) } 
+		.s2 { filter: url(#f2);fill: #d9d9d9 } 
+		.s3 { filter: url(#f3);fill: #d9d9d9 } 
+		.s4 { opacity: .1;fill: none;stroke: #ffffff;stroke-miterlimit:100;stroke-width: .6 } 
+		.s5 { opacity: .4;fill: #24613d } 
+		.s6 { opacity: .3;fill: #24613d } 
+		.s7 { opacity: .1;fill: #24613d } 
+		.s8 { opacity: .3;fill: #0da932 } 
+		.s9 { opacity: .6;fill: #0fae27 } 
+		.s10 { opacity: .2;fill: #0d992f } 
+		.s11 { fill: #0b902b } 
+		.s12 { opacity: .3;fill: #1b8b3b } 
+	</style>
+	<g id="Group 1" clip-path="url(#cp1)">
+		<g id="reveal mask">
+			<path id="Blob 4" class="s0" d="m379.6 152.4c0 73.6-48.7 133.3-108.8 133.3-60 0-435.2-258.2-435.2-331.8 0-73.7 539.1 27.7 599.1 27.7 60.1 0-55.1 97.2-55.1 170.8z"/>
+			<path id="Blob 3" class="s1" d="m421.8 467.9c0 73.7-48.7 133.3-108.7 133.3-60.1 0-394.6-17.1-394.6-90.7 0-73.7 24.7-248.1 84.8-248.1 60 0 418.5 131.9 418.5 205.5z"/>
+			<path id="Blob 2" class="s2" d="m771.5 221.7c-139.2 3.7-64.3 77.3-226.3-69.1-162.1-146.3-302.7-43.8-205.8-147 96.9-103.2 64.8-112.1 135.1-106.5 70.2 5.6 75-53.1 137.2 18.1 62.3 71.1 87.4 116.6 128.7 161.3 41.2 44.7 30.6 73.7 63.6 114.8 26.4 32.8-10.7 32.6-32.5 28.4z"/>
+			<path id="Blob 1" class="s3" d="m191.1 507.6c88.9-107.1-15.8-99.3 201.1-124.8 216.8-25.5 232.3-198.9 246.1-58 13.9 140.9 41.6 122.6-8.8 171.8-50.4 49.2-9.4 91.4-104 91.4-94.5 0-145.3-11-206.1-9.5-60.8 1.6-75.7-25.5-128.3-27.7-42.1-1.8-17.5-29.5 0-43.2z"/>
+		</g>
+		<g id="grid lines">
+			<g id="hori lines">
+				<path id="Line 1" class="s4" d="m-15.6 628.3h755.7z"/>
+				<path id="Line 9" class="s4" d="m-15.6 305.6h755.7z"/>
+				<path id="Line 5" class="s4" d="m-15.6 467h755.7z"/>
+				<path id="Line 10" class="s4" d="m-15.6 144.2h755.7z"/>
+				<path id="Line 17" class="s4" d="m-15.6-17.2h755.7z"/>
+				<path id="Line 3" class="s4" d="m-15.6 547.6h755.7z"/>
+				<path id="Line 11" class="s4" d="m-15.6 224.9h755.7z"/>
+				<path id="Line 6" class="s4" d="m-15.6 386.3h755.7z"/>
+				<path id="Line 12" class="s4" d="m-15.6 63.5h755.7z"/>
+				<path id="Line 18" class="s4" d="m-15.6-97.8h755.7z"/>
+				<path id="Line 2" class="s4" d="m-15.6 588h755.7z"/>
+				<path id="Line 13" class="s4" d="m-15.6 265.2h755.7z"/>
+				<path id="Line 7" class="s4" d="m-15.6 426.6h755.7z"/>
+				<path id="Line 14" class="s4" d="m-15.6 103.9h755.7z"/>
+				<path id="Line 19" class="s4" d="m-15.6-57.5h755.7z"/>
+				<path id="Line 4" class="s4" d="m-15.6 507.3h755.7z"/>
+				<path id="Line 15" class="s4" d="m-15.6 184.6h755.7z"/>
+				<path id="Line 8" class="s4" d="m-15.6 345.9h755.7z"/>
+				<path id="Line 16" class="s4" d="m-15.6 23.2h755.7z"/>
+				<path id="Line 20" class="s4" d="m-15.6-138.2h755.7z"/>
+			</g>
+			<g id="verti lines">
+				<path id="Line 1" class="s4" d="m7.7-31.6v583.7z"/>
+				<path id="Line 9" class="s4" d="m330.4-31.6v583.7z"/>
+				<path id="Line 5" class="s4" d="m169-31.6v583.7z"/>
+				<path id="Line 10" class="s4" d="m491.8-31.6v583.7z"/>
+				<path id="Line 17" class="s4" d="m653.2-31.6v583.7z"/>
+				<path id="Line 3" class="s4" d="m88.4-31.6v583.7z"/>
+				<path id="Line 11" class="s4" d="m411.1-31.6v583.7z"/>
+				<path id="Line 6" class="s4" d="m249.7-31.6v583.7z"/>
+				<path id="Line 12" class="s4" d="m572.5-31.6v583.7z"/>
+				<path id="Line 18" class="s4" d="m733.8-31.6v583.7z"/>
+				<path id="Line 2" class="s4" d="m48-31.6v583.7z"/>
+				<path id="Line 13" class="s4" d="m370.8-31.6v583.7z"/>
+				<path id="Line 7" class="s4" d="m209.4-31.6v583.7z"/>
+				<path id="Line 14" class="s4" d="m532.1-31.6v583.7z"/>
+				<path id="Line 19" class="s4" d="m693.5-31.6v583.7z"/>
+				<path id="Line 4" class="s4" d="m128.7-31.6v583.7z"/>
+				<path id="Line 15" class="s4" d="m451.4-31.6v583.7z"/>
+				<path id="Line 8" class="s4" d="m290.1-31.6v583.7z"/>
+				<path id="Line 16" class="s4" d="m612.8-31.6v583.7z"/>
+				<path id="Line 20" class="s4" d="m774.2-31.6v583.7z"/>
+			</g>
+		</g>
+		<g id="grid blocks" style="opacity: .7">
+			<path id="Rectangle 87" class="s5" d="m451.6 385.9v40.1h-40.2v-40.1z"/>
+			<path id="Rectangle 87" class="s6" d="m249.8 385.9v40.1h-40.1v-40.1z"/>
+			<path id="Rectangle 91" class="s7" d="m613.2 104v39.5h-40.2v-39.5z"/>
+			<path id="Rectangle 94" class="s8" d="m290 63.9v39.5h-40.2v-39.5z"/>
+			<path id="Rectangle 92" class="s7" d="m572.5 144.1v39.5h-40.1v-39.5z"/>
+			<path id="Rectangle 95" class="s8" d="m249.3 104v39.5h-40.1v-39.5z"/>
+			<path id="Rectangle 93" class="s7" d="m572.5 104v39.5h-40.1v-39.5z"/>
+			<path id="Rectangle 96" class="s8" d="m249.3 63.9v39.5h-40.1v-39.5z"/>
+			<path id="Rectangle 89" class="s6" d="m209.7 385.9v40.1h-40.1v-40.1z"/>
+			<path id="Rectangle 90" class="s6" d="m209.7 426v40.7h-40.1v-40.7z"/>
+			<path id="Rectangle 88" class="s6" d="m128.9 345.8v40.1h-40.1v-40.1z"/>
+			<g id="top">
+				<path id="Rectangle 87" class="s9" d="m532.4 23.2v40.1h-40.2v-40.1z"/>
+				<path id="Rectangle 89" class="s9" d="m492.2-22.7v40.2h-40.1v-40.2z"/>
+				<path id="Rectangle 90" class="s9" d="m491.8 22.6v40.7h-40.1v-40.7z"/>
+			</g>
+			<g id="top left">
+				<path id="Rectangle 87" class="s10" d="m129.5 62.7v41.3h-40.7v-41.3z"/>
+				<path id="Rectangle 89" class="s10" d="m88.8 22.6v40.1h-40.7v-40.1z"/>
+				<path id="Rectangle 91" class="s10" d="m48.7 23.2v40.1h-40.7v-40.1z"/>
+				<path id="Rectangle 90" class="s10" d="m88.8 62.7v41.3h-40.7v-41.3z"/>
+				<path id="Rectangle 89" class="s11" d="m250.4-17.5v40.1h-40.7v-40.1z"/>
+				<path id="Rectangle 90" class="s10" d="m128.9 143.5v40.7h-40.1v-40.7z"/>
+				<path id="Rectangle 87" class="s12" d="m613.2 345.8v40.1h-40.2v-40.1z"/>
+				<path id="Rectangle 92" class="s12" d="m653.3 385.9v40.1h-40.1v-40.1z"/>
+			</g>
+		</g>
+	</g>
+</svg>
