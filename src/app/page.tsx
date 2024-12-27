@@ -9,7 +9,7 @@ export default function Home() {
         {/* Background Color */}
         <div className="absolute inset-0 bg-[#082832]"></div>
         {/* Background SVG */}
-        <div className="absolute inset-0 bg-[url('/background.svg')] bg-center bg-cover opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('/background-home-page.svg')] bg-center bg-cover opacity-30"></div>
 
         <div className="relative z-10 flex flex-col gap-8 items-center justify-center h-full px-4 sm:px-8">
           {/* Hero Text */}
