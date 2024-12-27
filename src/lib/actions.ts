@@ -1,7 +1,6 @@
 "use server";
 
-import Certificate from "@/models/recipients";
-import { redirect } from "next/navigation";
+// import Certificate from "@/models/recipients";
 import dbConnect from "./dbConnect";
 
 export type FormState =
@@ -27,7 +26,7 @@ export async function submitAction(
 
   await dbConnect();
 
-  const recipientData = await Certificate.findOne({ recipientId }).exec();
+  // const recipientData = await Certificate.findOne({ recipientId }).exec();
 
   //   const listCollections = async () => {
   //     const collections = await dbConnect.db("DB_NAME_HERE").listCollections().toArray();
@@ -38,11 +37,11 @@ export async function submitAction(
 
   // for in await listC...
 
-  if (recipientData) {
-    redirect(`/certificate/${recipientId}`);
-  } else {
-    return {
-      error: "No Recipient under this ID found!",
-    };
-  }
+  // if (recipientData) {
+  //   redirect(`/certificate/${recipientId}`);
+  // } else {
+  //   return {
+  //     error: "No Recipient under this ID found!",
+  //   };
+  // }
 }

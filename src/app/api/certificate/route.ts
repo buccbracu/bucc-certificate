@@ -10,15 +10,15 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "ID is required" }, { status: 400 });
   }
 
-  console.log(body.recipientId, typeof body.recipientId);
+  // console.log(body.recipientId, typeof body.recipientId);
 
   await dbConnect();
 
-  const data = await mongoose.connections[0].db
-    ?.collection("certificates")
-    .find({})
-    .toArray();
-  console.log(data);
+  // const data = await mongoose.connections[0].db
+  //   ?.collection("certificates")
+  //   .find({})
+  //   .toArray();
+  // console.log(data);
 
   const recipientData = await mongoose.connections[0].db
     ?.collection("certificates")
@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
 
   if (recipientData) {
     return NextResponse.redirect(
-      new URL(`/certificate/${recipientData.recipientId}`, request.nextUrl)
+      new URL(`/${recipientData.recipientId}`, request.nextUrl)
     );
   } else {
     return NextResponse.json(

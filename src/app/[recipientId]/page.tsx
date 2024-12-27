@@ -39,13 +39,16 @@ export default async function CertificatePage({
         {/* Certificate Preview */}
         <div className="w-full lg:w-[50%] h-auto lg:h-full flex items-center justify-center">
           {recipientData && (
-            <Image
-              src={recipientData.previewLink}
-              alt={"certificate"}
-              width={700}
-              height={700}
-              className="object-contain rounded-lg max-w-full"
-            />
+            // Show a placeholder loading div while the image is loading
+            <div className="w-full h-full flex items-center justify-center">
+              <Image
+                src={recipientData.previewLink}
+                alt={"certificate"}
+                width={700}
+                height={700}
+                className="object-contain rounded-lg max-w-full"
+              />
+            </div>
           )}
         </div>
 
