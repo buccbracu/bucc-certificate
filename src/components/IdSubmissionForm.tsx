@@ -22,7 +22,7 @@ export default function IdSubmissionForm() {
 
     if (!response.ok) {
       setPending(false);
-      return toast.error("Something went w");
+      return toast.error("Something went wrong");
     }
 
     router.push(`/certificate/${id}`);
@@ -44,7 +44,7 @@ export default function IdSubmissionForm() {
             className="w-full px-4 rounded-md border border-gray-400 focus:outline-none focus:ring-2 focus:ring-[#082832]"
           />
           <Button
-            className="w-[30%] bg-blue-600 rounded-l-none rounded-r-lg font-semibold text-white flex items-center justify-center hover:bg-blue-500"
+            className="w-[30%] bg-blue-600 rounded-md font-semibold text-white flex items-center justify-center hover:bg-blue-500"
             disabled={pending}
           >
             {pending ? "Submitting..." : "Submit"}
