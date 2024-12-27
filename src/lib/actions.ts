@@ -29,6 +29,15 @@ export async function submitAction(
 
   const recipientData = await Certificate.findOne({ recipientId }).exec();
 
+  //   const listCollections = async () => {
+  //     const collections = await dbConnect.db("DB_NAME_HERE").listCollections().toArray();
+  //     console.log(collections);
+  // }
+
+  // listCollections();
+
+  // for in await listC...
+
   if (recipientData) {
     redirect(`/certificate/${recipientId}`);
   } else {

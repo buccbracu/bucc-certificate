@@ -5,7 +5,7 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import CopyButton from "@/components/CopyButton";
 import dbConnect from "@/lib/dbConnect";
-import Certificate from "@/models/recipients";
+import mongoose from "mongoose";
 
 export default async function CertificatePage({
   params,
@@ -16,9 +16,11 @@ export default async function CertificatePage({
 
   const recipientId = (await params).recipientId;
 
-  const recipientData = await Certificate.findOne({ recipientId });
+  const recipientData = await mongoose.connections[0].db
+    ?.collection("certificates")
+    .findOne({ recipientId });
 
-  if (!recipientData.recipientId) {
+  if (!recipientData) {
     return (
       <div className="flex items-center justify-center h-[100vh] text-2xl">
         Invalid Recipient ID!
@@ -64,10 +66,14 @@ export default async function CertificatePage({
                   <p>Issue Date</p>
                   <p>
                     {recipientData
-                      ? Intl.DateTimeFormat("en", {
-                          dateStyle: "short",
-                          timeZone: "Asia/Dhaka",
-                        }).format(recipientData.issueDate)
+                      ? new Date(recipientData.issueDate).toLocaleDateString(
+                          "en-US",
+                          {
+                            day: "2-digit",
+                            month: "long",
+                            year: "numeric",
+                          }
+                        )
                       : "N/A"}
                   </p>
                 </div>
